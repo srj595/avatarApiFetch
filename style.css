@@ -1,0 +1,52 @@
+body {
+  background-color: tomato;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  /* background: rgba(0, 0, 0, 0.4); */
+  color: aliceblue;
+}
+
+.centerdiv {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  font-size: 35px;
+  background: gray;
+  width: 60%;
+  height: 450px;
+  margin: auto;
+  /* margin-left: 50px; */
+  padding-top: 10px;
+}
+.centerdiv1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.centerdiv1 input {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+#imageid {
+  /* height: 200px; */
+  /* margin: auto; */
+  margin: 20px auto;
+}
+.btn {
+  margin-bottom: 40px;
+  width: 120px;
+  padding: 5px;
+  font-size: 1.2rem;
+  background: blue;
+  color: antiquewhite;
+  border: 2px solid blue;
+}
+.btn:hover {
+  cursor: pointer;
+  background: rgb(0, 50, 255);
+}
